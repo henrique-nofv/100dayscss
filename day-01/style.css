@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: #fff;
+	color: #333;
+	font-family: "Courier New", "Courier", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.typography {
+	color: white;
+}
+
+.frame {
+	background: linear-gradient(
+		35deg,
+		rgba(68, 58, 160, 1) 0%,
+		rgba(78, 196, 202, 1) 100%
+	);
+}
+
+.big {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 50px;
+}
+
+.mb {
+	padding-bottom: 115px;
+}
+
+.medium {
+	text-transform: uppercase;
+	font-weight: 550;
+	font-size: 25px;
+}
+
+.two {
+	position: absolute;
+	border: 22px solid #fff;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	box-sizing: border-box;
+	right: 78px;
+	z-index: 2;
+}
+
+.three {
+	position: absolute;
+	border: 22px solid #fff;
+	border-radius: 100px;
+	height: 100px;
+	width: 100px;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	box-sizing: border-box;
+}
+
+.one-vertical {
+	position: absolute;
+	border: 12px solid #fff;
+	height: 100px;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	border-radius: 2px;
+	box-sizing: border-box;
+	right: 170px;
+	z-index: 3;
+}
+
+.one-diagonal {
+	position: absolute;
+	border: 10px solid #fff;
+	height: 45px;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	border-radius: 2px;
+	box-sizing: border-box;
+	right: 190.5px;
+	z-index: 2;
+
+	transform: rotate(45deg);
+}
